@@ -5,20 +5,37 @@ html, body{
     width: 100%;
     display: flex;
 }
+
+.controlers{
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
 .column {
-    width: 100%;
-    border: 2px solid #DFA612;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    font-family: sans-serif;
-    font-weight: bold;
-  }
+  width: 100%;
+  border: 2px solid #DFA612;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.column__title{
+  font-size: 20px;
+  text-align: center;
+}
   
-  .task {
-    background-color: #4AAE9B;
-    font-weight: normal;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 10px;
-  }
+.task {
+  background-color: #4AAE9B;
+  text-align: center;
+  font-weight: normal;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.task__title{
+  font-weight: 600;
+}

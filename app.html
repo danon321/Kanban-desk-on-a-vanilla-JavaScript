@@ -8,35 +8,20 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="add_column">Add new column</button>
+    <div class="controlers">
+      <div class="controlers__item">
+          <input id="column_name" type="text" placeholder="Column Title">
+          <button id="add_column">Add new column</button>
+      </div>
+      <div class="controlers__item">
+        <input id="task_title" type="text" placeholder="Task Title">
+        <input id="task_desc" type="text" placeholder="Task Description">
+        <button id="add_task">Add new task</button>
+      </div>
+    </div>
     <div class="container">
-        <div class="column">
-            Column 1
-          <div
-            id="draggable-1"
-            class="task"
-            draggable="true"
-          >
-            draggable 1
-          </div>
-          <div
-            id="draggable-2"
-            class="task"
-            draggable="true"
-          >
-            draggable 2
-          </div>
-          <div
-            id="draggable-3"
-            class="task"
-            draggable="true"
-          >
-            draggable 3
-          </div>
-        </div>
-      
-        <div class="column">
-            Column 2
+        <div id="main_column" class="column">
+          <p class="column__title">Column 1</p>
         </div>
       </div>
     <script src="script.js"></script>
