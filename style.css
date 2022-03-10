@@ -36,6 +36,28 @@ html, body{
   padding: 1rem;
 }
 
+
 .task__title{
   font-weight: 600;
+}
+
+.edit{
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-buttons__save,
+.edit-buttons__close,
+.task .edit__input{
+  display: none;
+}
+
+.edit-mode .edit-buttons__save,
+.edit-mode .edit-buttons__close,
+.edit-mode.task .edit__input{
+  display: inline-block;
+}
+
+.edit-mode .edit-buttons__open{
+  display: none;
 }
